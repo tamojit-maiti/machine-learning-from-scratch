@@ -6,7 +6,8 @@ def rosenbrock(x : list,
     """
     The multivariate Rosenbrock function
     """
-    return sum(b * (x[1:] - x[:-1]**2)**2 + (a-x[:-1])**2)
+    x = np.array(x)
+    return np.sum(b * (x[1:] - x[:-1]**2)**2 + (a-x[:-1])**2)
 
-    
+print(rosenbrock([1,1]))
     
