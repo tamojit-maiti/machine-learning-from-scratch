@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-mlops-pyenv/
+ml-from-scratch/
 
 # Spyder project settings
 .spyderproject
